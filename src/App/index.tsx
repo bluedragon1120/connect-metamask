@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <div className="App-main">
-        <h1>Multi Sig Wallet</h1>
+        <h1>Connect Metamask</h1>
         {account ? (
           <>
             {netId !== 0 && <Network netId={netId} />}
